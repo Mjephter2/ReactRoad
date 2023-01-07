@@ -1,0 +1,7 @@
+node_modules/
+    contains all node packages that have been installed
+package.json contains   
+    shows a list og node package dependencies and other project configurations
+public/
+    folder that holds development files such as public/index.html.
+    index.html is displayed on localhost:3000 or on a specified domain
