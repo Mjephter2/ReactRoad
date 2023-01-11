@@ -1,2 +1,0 @@
-Command Line
-npx create-react-app <my_app_name>
