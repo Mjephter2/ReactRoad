@@ -82,10 +82,10 @@ const Item = ({title, url, author, num_comments, points}) => (
 );
 
 const Search = ({ search, onSearch }) => (
-  <div>
+  <>
     <label htmlFor="search">Search: </label>
     <input value={search} type="text" id="search" onChange={onSearch} />
-  </div>
+  </>
 );
 
 export default App;
