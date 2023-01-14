@@ -1,6 +1,0 @@
-https://www.robinwieruch.de/web-applications/
-https://www.robinwieruch.de/reasons-why-i-moved-from-angular-to-react/
-https://www.robinwieruch.de/how-to-learn-framework/
-https://www.robinwieruch.de/learn-react-js/
-https://www.robinwieruch.de/javascript-fundamentals-react-requirements/
-https://medium.com/dev-bits/a-perfect-guide-for-cracking-a-javascript-interview-a-developers-perspective-23a5c0fa4d0d
