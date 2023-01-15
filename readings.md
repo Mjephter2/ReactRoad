@@ -23,7 +23,7 @@
 - [ ] [Introducing JSX](https://reactjs.com/docs/introducing-jsx.html)
 
 - [ ] [React list key](https://robinwieruch.de/react-list-key)
-- [Lists and keys](https://reactjs.com/docs/lists-and-keys.html)
+- [ ] [Lists and keys](https://reactjs.com/docs/lists-and-keys.html)
 
 - [ ] [Arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 
@@ -48,3 +48,10 @@
 - [ ] [Nullish coalescing operator (??)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing)
 
 - [ ] [React Hooks Tutorial](https://robinwieruch.de/react-hooks)
+
+- [ ] [React Fragments](https://reactjs.com/docs/fragments.html)
+
+- [ ] [JavaScript Default Parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters)
+- [ ] [Reusable Components in React](https://robinwieruch.de/react-reusable-components)
+
+- [ ] [React Component Composition](https://robinwieruch.de/react-component-composition)
