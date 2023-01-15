@@ -3,11 +3,11 @@ import * as React from "react";
 const useSemiPersistentState = (key, initialState) => {
   const [value, setValue] = React.useState(
     localStorage.getItem(key) || initialState
-  )
+  );
 
   React.useEffect(() => {
     localStorage.setItem(key, value);
-  }, [value, key])
+  }, [value, key]);
 
   return [value, setValue];
 };
@@ -32,7 +32,10 @@ function App() {
     },
   ];
 
-  const [searchTerm, setSearchTerm] = useSemiPersistentState('searchTerm', 'React');
+  const [searchTerm, setSearchTerm] = useSemiPersistentState(
+    "searchTerm",
+    "React"
+  );
 
   React.useEffect(() => {
     localStorage.setItem("searchTerm", searchTerm);
@@ -40,7 +43,6 @@ function App() {
 
   const handleSearch = (event) => {
     setSearchTerm(event.target.value);
-
   };
 
   const searchedStories = stories.filter((story) =>
@@ -51,7 +53,12 @@ function App() {
     <div>
       <h1>My Hacker Stories</h1>
 
-      <Search search={searchTerm} onSearch={handleSearch} />
+      <InputWithLabel
+        id="search"
+        label="search"
+        value={searchTerm}
+        onInputChange={handleSearch}
+      />
 
       <hr />
 
@@ -60,7 +67,7 @@ function App() {
   );
 }
 
-function List({list}) {
+function List({ list }) {
   return (
     <ul>
       {list.map((item) => (
@@ -70,7 +77,7 @@ function List({list}) {
   );
 }
 
-const Item = ({title, url, author, num_comments, points}) => (
+const Item = ({ title, url, author, num_comments, points }) => (
   <li>
     <span>
       <a href={url}>{title}</a>
@@ -81,10 +88,14 @@ const Item = ({title, url, author, num_comments, points}) => (
   </li>
 );
 
-const Search = ({ search, onSearch }) => (
+const InputWithLabel = ({ id, label, value, type="text", onInputChange }) => (
   <>
-    <label htmlFor="search">Search: </label>
-    <input value={search} type="text" id="search" onChange={onSearch} />
+    <label htmlFor={id}>{label}: </label>
+    <input 
+    value={value} 
+    type={type} 
+    id="search" 
+    onChange={onInputChange} />
   </>
 );
 
