@@ -11,6 +11,8 @@
 
 ## Fundamentals of React
 
+### Setting up a React Project
+
 - [ ] [Facebook create-react-app](https://github.com/facebook/create-react-app)
 - [ ] [Getting Started](https://create-react-app.dev/docs/getting-started)
 - [ ] [Supported Browsers / features](https://create-react-app.dev/docs/supported-browser-features)
@@ -18,40 +20,83 @@
 - [ ] [Available Scripts](https://create-react-app.dev/docs/available-scripts)
 - [ ] [Deploy applications on Digital Ocean](https://robinwieruch.de/deploy-applications-digital-ocean)
 
+### Meet the React Component
+
 - [ ] [const, let , var](https://robinwieruch.de/const-let-var)
+
+### React JSX
+
 - [ ] [React supported HTML elements](https://reactjs.com/docs/dom-elements.html#all-supported-html-elements)
 - [ ] [Introducing JSX](https://reactjs.com/docs/introducing-jsx.html)
+
+### Lists in React
 
 - [ ] [React list key](https://robinwieruch.de/react-list-key)
 - [ ] [Lists and keys](https://reactjs.com/docs/lists-and-keys.html)
 
-- [ ] [Arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+### React Component Instantiation
+
+- [ ] [Rendering Elements](https://reactjs.com/docs/rendering-elements.html)
+
+### Handler Function in JSX
 
 - [ ] [React event handler](https://robinwieruch.de/react-event-handler)
 - [ ] [Events](https://reactjs.org/docs/events.html)
 
+### React Props
+
 - [ ] [How to use Props in React](https://robinwieruch.de/react-pass-props-to-component)
+
+### React State
 
 - [ ] [Array destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#array_destructuring)
 - [ ] [How to useState in React](https://robinwieruch.de/react-usestate-hook)
 
+### Lifting State in React
+
 - [ ] [A React Lift State Up & Down Example](https://robinwieruch.de/react-lift-state)
 
+### React Controlled Components
+
 - [ ] [What are Controlled Components in React](https://robinwieruch.de/react-controlled-components)
+
+### Props Handling (Advanced)
 
 - [ ] [Destructuring Assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
 - [ ] [Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operators)
 - [ ] [Rest Parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters)
 
+### React Side-Effects
+
 - [ ] [How to useEffect in React](https://robinwieruch.de/react-useeffect-hook)
 - [ ] [Local Storage in React](https://robinwieruch.de/local-storage-react)
 - [ ] [Nullish coalescing operator (??)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing)
 
+### React Custom Hooks (Advanced)
+
 - [ ] [React Hooks Tutorial](https://robinwieruch.de/react-hooks)
 
+### React Fragments
+
 - [ ] [React Fragments](https://reactjs.com/docs/fragments.html)
+
+### React Reusable Components
 
 - [ ] [JavaScript Default Parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters)
 - [ ] [Reusable Components in React](https://robinwieruch.de/react-reusable-components)
 
+### React Component Composition
+
 - [ ] [React Component Composition](https://robinwieruch.de/react-component-composition)
+
+### Imperative React
+
+- [ ] [How to use React Ref](https://robinwieruch.de/react-ref)
+- [ ] [How to React Slider](https://robinwieruch.de/react-slider)
+
+### Inline Handler in JSX
+
+- [ ] [Add an Item to a List in React](https://robinwieruch.de/react-add-item-to-list)
+- [ ] [Update an Item in a List in React](https://robinwieruch.de/react-update-item-in-list)
+- [ ] [Remove an Item from a List in React](https://robinwieruch.de/react-remove-item-from-list)
+- [ ] [Computed Properties in React](https://robinwieruch.de/react-computed-properties)
