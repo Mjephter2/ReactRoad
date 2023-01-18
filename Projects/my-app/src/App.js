@@ -43,12 +43,19 @@ function App() {
   );
 
   const [stories, setStories] = React.useState([]);
+  const [isLoading, setIsLoading] = React.useState(false);
+  const [isError, setIsError] = React.useState(false);
 
   // this effect only runs once as inferred by the empty dependencies list
   React.useEffect(() => {
-    getAsyncStories().then(result => {
-      setStories(result.data.stories)
-    })
+    setIsLoading(true);
+
+    getAsyncStories()
+      .then((result) => {
+        setStories(result.data.stories);
+        setIsLoading(false);
+      })
+      .catch(() => setIsError(true));
   }, []);
 
   const handleRemoveStory = (item) => {
@@ -74,13 +81,19 @@ function App() {
         value={searchTerm}
         onInputChange={handleSearch}
         isFocused
-      > 
+      >
         <strong>Search:</strong>
       </InputWithLabel>
 
       <hr />
 
-      <List list={searchedStories} onRemoveItem={handleRemoveStory} />
+      {isError && <p>Something went wrong ...</p>}
+
+      {isLoading ? (
+        <p>Loading...</p>
+      ) : (
+        <List list={searchedStories} onRemoveItem={handleRemoveStory} />
+      )}
     </div>
   );
 }
