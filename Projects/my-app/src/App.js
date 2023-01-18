@@ -19,11 +19,10 @@ const initialStories = [
   },
 ];
 
-const getAsyncStories = () => {
+const getAsyncStories = () =>
   new Promise((resolve) => {
     setTimeout(() => resolve({data: {stories: initialStories}}) , 2000)
-  }) 
-};
+  });
 
 const useSemiPersistentState = (key, initialState) => {
   const [value, setValue] = React.useState(
