@@ -100,3 +100,18 @@
 - [ ] [Update an Item in a List in React](https://robinwieruch.de/react-update-item-in-list)
 - [ ] [Remove an Item from a List in React](https://robinwieruch.de/react-remove-item-from-list)
 - [ ] [Computed Properties in React](https://robinwieruch.de/react-computed-properties)
+
+### React Asynchronous Data
+
+- [ ] [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+- [ ] [JavaScript fake API with Mock Data](https://robinwieruch.de/javascript-fake-api)
+- [ ] [How to mock data in React with a fake API](https://robinwieruch.de/react-mock-data)
+
+### React Conditional Rendering
+
+- [ ] [React Conditional Rendering](https://robinwieruch.de/conditional-rendering-react)
+
+### React Advanced State
+
+- [ ] [JavaScript Reducer (origin React/Redux)](https://robinwieruch.de/javascript-reducer)
+- [ ] [How to useReducer in React](https:robinwieruch.de/react-usereducer-hook)
