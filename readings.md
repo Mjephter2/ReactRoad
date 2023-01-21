@@ -115,3 +115,19 @@
 
 - [ ] [JavaScript Reducer (origin React/Redux)](https://robinwieruch.de/javascript-reducer)
 - [ ] [How to useReducer in React](https:robinwieruch.de/react-usereducer-hook)
+
+### React Impossible States
+
+- [ ] [useReducer vs useState in React](https://robinwieruch.de/react-usereducer-vs-usestate)
+- [ ] [How to update state from props in React](https://robinwieruch.de/react-derive-state-props)
+
+### Data Fetching with React
+
+- [ ] [HN Search API](https://hn.algolia.com/api)
+- [ ] [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+
+- [ ] [Template literals (Template strings)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
+- [ ] [Hacker News](https://news.ycombinator.com)
+- [ ] [Search Hacker News](https://hn.algolia.com/api)
+
+### Data Re-Fetching in React
