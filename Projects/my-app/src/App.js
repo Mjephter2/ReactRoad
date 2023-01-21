@@ -59,9 +59,9 @@ function App() {
     isError: false,
   });
 
-  // this effect only runs once as inferred by the empty dependencies list
-  React.useEffect(() => {
+  const handleFetchStories = React.useCallback(() => {
     if(!searchTerm) return;
+    
     dispatchStories({ type: "STORIES_FETCH_INIT" });
 
     fetch(`${API_ENDPOINT}{searchTerm}`)
@@ -74,6 +74,11 @@ function App() {
       })
       .catch(() => dispatchStories({ type: "STORIES_FETCH_FAILURE" }));
   }, [searchTerm]);
+
+  // this effect only runs once as inferred by the empty dependencies list
+  React.useEffect(() => {
+    handleFetchStories();
+  }, [handleFetchStories]);
 
   const handleRemoveStory = (item) => {
     dispatchStories({
