@@ -130,4 +130,6 @@
 - [ ] [Hacker News](https://news.ycombinator.com)
 - [ ] [Search Hacker News](https://hn.algolia.com/api)
 
-### Data Re-Fetching in React
+### Memoized Handler in React
+
+- [ ] [How to useCallback in React](https://www.robinwieruch.de/react-usecallback-hook)
