@@ -133,3 +133,35 @@
 ### Memoized Handler in React
 
 - [ ] [How to useCallback in React](https://www.robinwieruch.de/react-usecallback-hook)
+
+### Explicit Data Fetching with React
+
+- [ ]  [Rate limiting](https://en.wikipedia.org/wiki/Rate_limiting)
+
+### Third Party Libraries in React
+
+- [ ] [Headless browser](https://en.wikipedia.org/wiki/Headless_browser)
+- [ ] [Polyfill (programming)](https://en.wikipedia.org/wiki/Polyfill_(programming))
+- [ ] [Axios](https://github.com/axios/axios)
+- [ ] [GET](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/GET)
+- [ ] [React Libraries for 2022](https:www.robinwieruch.de/react-libraries)
+- [ ] [Why Frameworks matter](https:www.robinwieruch.de/why-frameworks-matter)
+
+### Asynd/Await in React
+
+- [ ] [How to fetch data with React Hooks](https://www.robinwieruch.de/react-hooks-fetch-data)
+- [ ] [async function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
+
+### Forms in React
+
+- [ ] [What is preventDefault() in React](https://www.robinwieruch.de/react-preventdefault)
+
+## React's Legacy
+
+### React Class Components
+
+- [ ] [Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+- [ ] [React Hooks Migration](https://www.robinwieruch.de/react-hooks-migration)
+- [ ] [react-alternative-class-component-syntax](https://github.com/the-road-to-learn-react/react-alternative-class-component-syntax)
+- [ ] [React.Component](https://reactjs.org/docs/react-component.html)
+- [ ] [Types of React Components](https://www.robinwieruch.de/react-component-types)
