@@ -1,4 +1,5 @@
 import * as React from "react";
+import axios from 'axios';
 
 const storiesReducer = (state, action) => {
   switch (action.type) {
@@ -72,8 +73,6 @@ function App() {
   };
 
   const handleFetchStories = React.useCallback(() => {
-    if(!searchTerm) return;
-    
     dispatchStories({ type: "STORIES_FETCH_INIT" });
 
     fetch(url)
