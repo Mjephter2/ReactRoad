@@ -89,7 +89,7 @@
 
 - [ ] [React Component Composition](https://robinwieruch.de/react-component-composition)
 
-### Imperative React
+### Imperative React *
 
 - [ ] [How to use React Ref](https://robinwieruch.de/react-ref)
 - [ ] [How to React Slider](https://robinwieruch.de/react-slider)
@@ -165,3 +165,7 @@
 - [ ] [react-alternative-class-component-syntax](https://github.com/the-road-to-learn-react/react-alternative-class-component-syntax)
 - [ ] [React.Component](https://reactjs.org/docs/react-component.html)
 - [ ] [Types of React Components](https://www.robinwieruch.de/react-component-types)
+
+### Imperative React **
+
+- [ ] [Refs and the DOM](https://reactjs.org/docs/refs-and-the-dom.html)
