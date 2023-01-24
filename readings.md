@@ -169,3 +169,12 @@
 ### Imperative React **
 
 - [ ] [Refs and the DOM](https://reactjs.org/docs/refs-and-the-dom.html)
+
+## Styling in React
+
+- [ ] [How to CSS Style in React](https://www.robinwieruch.de/react-css-styling)
+
+### CSS in React
+
+- [ ] [Adding a Sass Stylesheet](https://create-react-app.dev/docs/adding-a-sass-stylesheet)
+- [ ] [Guidelines for styling CSS code examples](https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Code_guidelines/CSS)
