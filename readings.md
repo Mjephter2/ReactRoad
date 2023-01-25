@@ -178,3 +178,8 @@
 
 - [ ] [Adding a Sass Stylesheet](https://create-react-app.dev/docs/adding-a-sass-stylesheet)
 - [ ] [Guidelines for styling CSS code examples](https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Code_guidelines/CSS)
+
+### CSS Modules in React
+
+- [ ] [Classnames](https://github.com/JedWatson/classnames)
+- [ ] [Adding a CSS Modules Stylesheet](https://create-react-app.dev/docs/adding-a-css-modules-stylesheet)
