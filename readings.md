@@ -183,3 +183,14 @@
 
 - [ ] [Classnames](https://github.com/JedWatson/classnames)
 - [ ] [Adding a CSS Modules Stylesheet](https://create-react-app.dev/docs/adding-a-css-modules-stylesheet)
+
+### Styled Components in React
+
+- [ ] [Styled Components Best Practices](https://robinwieruch.de/styled-components)
+
+### SVGs in React
+
+- [ ] [Adding Images, Fonts, and Files](https://create-react-app.dev/docs/adding-images-fonts-and-files)
+- [ ] [How to use React SVG Patterns as Backgrounds](https://www.robinwieruch.de/react-svg-patterns)
+- [ ] [react-fontawesome](https://github.com/FortAwesome/react-fontawesome)
+- [ ] [React Icons](https://github.com/react-icons/react-icons)
