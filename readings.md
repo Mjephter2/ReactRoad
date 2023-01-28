@@ -194,3 +194,11 @@
 - [ ] [How to use React SVG Patterns as Backgrounds](https://www.robinwieruch.de/react-svg-patterns)
 - [ ] [react-fontawesome](https://github.com/FortAwesome/react-fontawesome)
 - [ ] [React Icons](https://github.com/react-icons/react-icons)
+
+## React Maintenance
+
+### Don't Render if not needed
+
+- [ ] [How to use React memo](https://www.robinwieruch.de/react-usememo-hook)
+- [ ] [How to useCallback in React](https://www.robinwieruch.de/react-usecallback-hook)
+- [ ] [Program optimization](https://en.wikipedia.org/wiki/Program_optimization)
