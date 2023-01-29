@@ -202,3 +202,9 @@
 - [ ] [How to use React memo](https://www.robinwieruch.de/react-usememo-hook)
 - [ ] [How to useCallback in React](https://www.robinwieruch.de/react-usecallback-hook)
 - [ ] [Program optimization](https://en.wikipedia.org/wiki/Program_optimization)
+
+### TypeScript in React
+
+- [ ] [TypeScript](https://www.typescriptlang.org/index.html)
+- [ ] [Adding TypeScript](https://create-react-app.dev/docs/adding-typescript)
+- [ ] [React+TypeScript Cheatsheets](https://github.com/typescript-cheatsheets/react-typescript-cheatsheet#reacttypescript-cheatsheet)
