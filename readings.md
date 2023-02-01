@@ -208,3 +208,9 @@
 - [ ] [TypeScript](https://www.typescriptlang.org/index.html)
 - [ ] [Adding TypeScript](https://create-react-app.dev/docs/adding-typescript)
 - [ ] [React+TypeScript Cheatsheets](https://github.com/typescript-cheatsheets/react-typescript-cheatsheet#reacttypescript-cheatsheet)
+
+### Testing in React
+
+- [ ] [The Practical Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html)
+- [ ] [Jest](https://jestjs.io)
+- [ ] [Testing Library](https://testing-library.com)
