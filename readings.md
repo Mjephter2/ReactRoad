@@ -214,3 +214,8 @@
 - [ ] [The Practical Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html)
 - [ ] [Jest](https://jestjs.io)
 - [ ] [Testing Library](https://testing-library.com)
+
+### React Project Structure
+
+- [ ] [JavaScript: Import & Export](https://www.robinwieruch.de/javascript-import-export)
+- [ ] [React Folder Structure in 5 Steps [2022]](https://www.robinwieruch.de/react-folder-structure)
