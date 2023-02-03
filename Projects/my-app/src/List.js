@@ -1,16 +1,86 @@
 import * as React from 'react';
+import {sortBy} from 'lodash';
 
 import { ReactComponent as Check } from "./check.svg";
 
+const SORTS = {
+  NONE: (list) => list,
+  TITLE: (list) => sortBy(list, 'title'),
+  AUTHOR: (list) => sortBy(list, 'author'),
+  COMMENT: (list) => sortBy(list, 'num_comments').reverse(),
+  POINT: (list) => sortBy(list, 'points').reverse(),
+}
+
 const List = React.memo(
   ({ list, onRemoveItem }) =>
-    console.log("B:List") || (
-      <ul>
-        {list.map((item) => (
-          <Item key={item.objectID} item={item} onRemoveItem={onRemoveItem} />
-        ))}
-      </ul>
-    )
+    {
+      const [sort, setSort] = React.useState("NONE");
+
+      const handleSort = (sortKey) => {
+        setSort(sortKey);
+      };
+
+      const sortFunction = SORTS[sort];
+      const sortedList = sortFunction(list);
+
+      return (
+        <div>
+          <div>
+            <span>
+              <button
+                type="button"
+                className="button"
+                style={{ width: "40%" }}
+                onClick={() => handleSort("TITLE")}
+              >
+                Title
+              </button>
+            </span>
+            <span>
+              <button
+                type="button"
+                className="button"
+                style={{ width: "30%" }}
+                onClick={() => handleSort("AUTHOR")}
+              >
+                Author
+              </button>
+            </span>
+            <span>
+              <button
+                type="button"
+                className="button"
+                style={{ width: "10%" }}
+                onClick={() => handleSort("COMMENT")}
+              >
+                Comments
+              </button>
+            </span>
+            <span>
+              <button
+                type="button"
+                className="button"
+                style={{ width: "10%" }}
+                onClick={() => handleSort("POINT")}
+              >
+                Points
+              </button>
+            </span>
+            <span style={{ width: "10%" }}>Actions</span>
+          </div>
+
+          <ul>
+            {sortedList.map((item) => (
+              <Item
+                key={item.objectID}
+                item={item}
+                onRemoveItem={onRemoveItem}
+              />
+            ))}
+          </ul>
+        </div>
+      );
+    }
 );
 
 const Item = ({ item, onRemoveItem }) => {
