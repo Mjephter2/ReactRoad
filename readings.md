@@ -219,3 +219,14 @@
 
 - [ ] [JavaScript: Import & Export](https://www.robinwieruch.de/javascript-import-export)
 - [ ] [React Folder Structure in 5 Steps [2022]](https://www.robinwieruch.de/react-folder-structure)
+
+## React Real World (Advanced)
+
+### Sorting
+
+- [ ] [Lodash](https://lodash.com/)
+
+### Reverse Sort
+
+- [ ] [Object initializer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer)
+- [ ] [Icon Pack: Arrow Set](https://www.flaticon.com/packs/arrow-set-2)
