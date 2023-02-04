@@ -230,3 +230,7 @@
 
 - [ ] [Object initializer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer)
 - [ ] [Icon Pack: Arrow Set](https://www.flaticon.com/packs/arrow-set-2)
+
+### Remember Last Searches
+
+- [ ] [How to groupBy in JavaScript](https://www.robinwieruch.de/javascript-groupby)
