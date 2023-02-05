@@ -238,3 +238,13 @@
 ### Paginated Fetch
 
 - [ ] [HN Search API](https://hn.algolia.com/api)
+
+## Deploying a React Application
+
+- [ ] [Firebase](https://console.firebase.google.com/)
+- [ ] [Firebase: Configure Hosting behavior](https://firebase.google.com/docs/hosting/full-config)
+- [ ] [React Deployment](https://create-react-app.dev/docs/deployment)
+- [ ] [Firebase Hosting](https://firebase.google.com/docs/hosting)
+- [ ] [Firebase: Connect a custom domain](https://firebase.google.com/docs/hosting/custom-domain)
+- [ ] [Host a single or multiple applications on Digital Ocean](https://www.robinwieruch.de/deploy-applications-digital-ocean)
+- [ ] [Digital Ocean](https://m.do.co/fb27c90322f3)
