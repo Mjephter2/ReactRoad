@@ -248,3 +248,18 @@
 - [ ] [Firebase: Connect a custom domain](https://firebase.google.com/docs/hosting/custom-domain)
 - [ ] [Host a single or multiple applications on Digital Ocean](https://www.robinwieruch.de/deploy-applications-digital-ocean)
 - [ ] [Digital Ocean](https://m.do.co/fb27c90322f3)
+
+## Deployment Hosting link
+
+- [myApp Hosting](https://react-road-project.web.app)
+
+## Further Recommendations
+
+- [ ] [The road to Firebase](https://roadtofirebase.com)
+- [ ] [The road to GraphQL](https://www.roadtographql.com)
+- [ ] [The road to Redux](https://roadtoredux.com)
+- [ ] [How to React with Webpack 5 - Setup Tutorial](https://www.robinwieruch.de/minimal-react-webpack-babel-setup)
+- [ ] [How to test React Components](https://www.robinwieruch.de/react-testing-tutorial)
+- [ ] [End to End Testing React with Cypress](https://robinwieruch.de/react-testing-cypress)
+- [ ] [React Router](https://github.com/ReactTraining/react-router)
+- [ ] [React Native](https://facebook.github.io/react-native)
